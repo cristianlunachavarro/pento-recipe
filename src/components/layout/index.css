@@ -1,0 +1,11 @@
+.layout {
+    background-color: var(--background-color);
+    max-width: 870px;
+    padding: 5% 10%;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0 0 5% 0;
+}

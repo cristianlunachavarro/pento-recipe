@@ -1,0 +1,25 @@
+.inputsContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr;
+    align-items: center;
+    justify-items: self-start;
+    margin: 2% 0;
+    gap: 20px;
+    width: 70%;
+} 
+
+.inputsContainer select {
+    border: none;
+    border-radius: 8px;
+    padding: 7.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: var(--text-color);
+    width: 90%;
+}
+
+.inputsContainer div {
+    font-weight: 500;
+}
+
+

@@ -1,0 +1,29 @@
+.heads {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  border-bottom: 2px solid var(--text-color);
+  font-weight: 500;
+  padding: 1% 0;
+  margin: 1% 0;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.img img {
+  width: 45px;
+  margin-right: 15px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 1% 1%;
+  border-bottom: 1px solid var(--text-color);
+}

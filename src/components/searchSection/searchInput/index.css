@@ -1,0 +1,27 @@
+.searchContainer {
+    width: 100%;
+}
+
+.searchContainer input {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    padding: 7.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: var(--text-color)
+}
+
+.searchIcon {
+    width: 20px;
+    position: relative;
+    top: 7px;
+    right:30px;
+    cursor: pointer;
+}
+
+.searchContainer input[type="search"] {
+    -webkit-appearance: none;
+    appearance: none;
+    
+}
